@@ -1,9 +1,17 @@
-import '../styles/header.css'
+import '../styles/Header.css'
 
 export default function Header() {
 	return (
-		<header>
-			<h1>The Voting Range</h1>
+		<header className='header'>
+			<div>
+				<li>
+					<a href='#'>Home</a>
+				</li>
+				<li>
+					<a href='#'>About</a>
+				</li>
+			</div>
+			<h1 className='title'>The Voting Range</h1>
 			<p>Created alongside Dr. Eberechukwu(Creative Director), Dr. Niyonkad(Chief Executive Director)</p>
 		</header>
 	)
