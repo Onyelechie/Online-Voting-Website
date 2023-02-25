@@ -1,0 +1,43 @@
+body{
+    background-color:aliceblue;
+    
+
+}
+h1{
+    color: antiquewhite;
+    
+
+}
+.theBar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pages{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.logins{
+    background-color: rgb(232, 162, 137);
+    text-align:right;
+    /* margin-left: 35rem; */
+}
+/* div{
+    background-color: azure;
+    display: flexbox;
+} */
+li{
+    padding: 2rem;
+    text-align:  center;
+    display:inline;
+    margin-right: 2rem;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+p{
+    color:aqua;
+
+}
