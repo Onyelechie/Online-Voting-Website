@@ -283,7 +283,7 @@ export default function Form() {
             </select>
             </div>
 
-            <div class = "Genders">
+            <div className= "Genders">
             <label>Gender </label>            
                 Male
                 <input type="radio" name="Gender" id="Male"></input>
