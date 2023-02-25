@@ -8,19 +8,16 @@ export default function Header() {
 				
 				<div className='pages'>
 					<li>
-						{/* <a href='#'>Home</a> */}
 						<Link to='/home'>Home</Link>
 					</li>
 					<li>
-						{/* <a href='#'>Elections</a> */}
 						<Link to='/elections'>Elections</Link>
+						
 					</li>
 					<li>
-						{/* <a href='#'>Profile</a> */}
-						<Link to='/profile'>Profile</Link>
+						<Link to='/profile'>Profile</Link>	
 					</li>
 					<li>
-					{/* <a href='#'>About</a> */}
 						<Link to='/about'>About</Link>
 					</li>
 				</div>

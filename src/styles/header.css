@@ -3,10 +3,6 @@
 	padding: 20px;
 	text-align: center;
 }
-body{
-    background-color:aliceblue;
-}
-
 h1{
     color: antiquewhite;    
 }
@@ -17,29 +13,33 @@ h1{
 
 }
 .pages{
-    background-color: azure;
+    /* background-color: azure; */
+	color: white;
     display: flex;
     justify-content: space-between;
 }
-.logins{
-    background-color: rgb(232, 162, 137);
-    text-align:right;
-    /* margin-left: 35rem; */
+.pages a {
+	text-decoration: none;
 }
-/* div{
-    background-color: azure;
-    display: flexbox;
-} */
+
+.logins{
+    /* background-color: rgb(232, 162, 137); */
+    text-align:right;
+	padding: 2rem;
+	color: white;
+}
+
+
 li{
     padding: 2rem;
     text-align:  center;
     display:inline;
     margin-right: 2rem;
 }
-a{
+/* a{
     color:black;
     text-decoration: none;
-}
+} */
 p{
     color:aqua;
 
