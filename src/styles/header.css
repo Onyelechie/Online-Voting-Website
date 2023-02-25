@@ -1,13 +1,16 @@
+.header {
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+}
 body{
     background-color:aliceblue;
-    
-
 }
+
 h1{
-    color: antiquewhite;
-    
-
+    color: antiquewhite;    
 }
+
 .theBar{
     display: flex;
     justify-content: space-between;
