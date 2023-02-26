@@ -1,12 +1,11 @@
 
-
-
-form { 
-font-style:oblique;
-color: white;
-text-align: center;
-background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoolbackgrounds.io%2Fimages%2Fbackgrounds%2Findex%2Fcompute-ea4c57a4.png&f=1&nofb=1&ipt=e76164926ff865d296440dcad8daad2dbc8673189850b06dc32f00651d196981&ipo=images");
-background-size: cover;
+.form { 
+    font-style:oblique;
+    color: white;
+    text-align: center;
+    /* background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoolbackgrounds.io%2Fimages%2Fbackgrounds%2Findex%2Fcompute-ea4c57a4.png&f=1&nofb=1&ipt=e76164926ff865d296440dcad8daad2dbc8673189850b06dc32f00651d196981&ipo=images"); */
+    background-size: contain;
+    max-height: 100vh;
 }
 
 label{
@@ -22,12 +21,12 @@ div{
     margin-bottom: 5%;
 }
 
-Gender {
+/* Gender {
     text-align: left;
     font-weight: bold;
-}
+} */
 
-votersID {
+#votersID {
     color: pink;
 }
 

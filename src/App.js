@@ -24,7 +24,18 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Form />
+      {/* <Form /> */}
+      <Router>
+          <Header />
+          <Routes>
+            <Route path='/' index element={<Home />} />
+            <Route path='/elections' element={<Elections />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/sign_up' element={<Form />} />
+            <Route path='*' element={<Home />} />
+          </Routes>
+    </Router>
     </div>
   );
 }
