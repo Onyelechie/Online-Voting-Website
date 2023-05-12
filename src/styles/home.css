@@ -2,6 +2,13 @@
 .WelcomeUser{
     color: blueviolet;
     text-align: left;
-
 }
 
+.subheading {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.appTitle {
+    color: antiquewhite;
+}

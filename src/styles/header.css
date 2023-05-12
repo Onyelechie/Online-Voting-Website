@@ -3,21 +3,21 @@
 	padding: 20px;
 	text-align: center;
 }
-h1{
-    color: antiquewhite;    
-}
+
 
 .theBar{
-    display: flex;
+	display: flex;
     justify-content: space-between;
-
+	height: 2rem;
 }
+
 .pages{
     /* background-color: azure; */
 	color: white;
     display: flex;
     justify-content: space-between;
 }
+
 .pages a {
 	text-decoration: none;
 }
